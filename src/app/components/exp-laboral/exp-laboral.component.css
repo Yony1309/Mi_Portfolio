@@ -1,0 +1,33 @@
+.exp_lab {
+    background-color: #777;
+    margin: 2px 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+h5 {
+    max-width: 80%;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+h1 {
+    display: block;
+    width: 10em;
+    border-radius: 5px;
+    background-color: #111;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+    box-shadow: 0 0 10px 3px #08f;
+    color: #fff;
+}
+
+li {
+    margin-left: 5%;
+}
+
+h3 {
+    list-style: none;
+}

@@ -1,0 +1,24 @@
+.btn {
+    float: right;
+    margin: 35px;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.login {
+    font-size: 18px;
+    background-color: #08f;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.login:hover {
+    transform: scale(1.2);
+    transition: all .2s;
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px #08f;
+}
+
+.login:active {
+    transform: scale(.9);
+}

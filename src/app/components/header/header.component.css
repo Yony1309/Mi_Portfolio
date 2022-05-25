@@ -1,0 +1,12 @@
+div {
+    background-color: #777; 
+    height: 500px;
+    margin: 2px 15px;
+    border-radius: 5px;
+}
+
+app-instagram {
+    float: right;
+    margin: 25px;
+}
+

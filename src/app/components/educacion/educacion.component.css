@@ -1,0 +1,30 @@
+.estudios {
+    position: relative;
+    background-color: #777;
+    margin: 2px 15px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+p {
+    max-width: 80%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+h1 {
+    display: block;
+    width: 5em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    box-shadow: 0 0 10px 3px #08f;
+}
+
+h3 {
+    display: inline-block;
+}

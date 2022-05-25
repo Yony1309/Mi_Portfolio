@@ -1,0 +1,102 @@
+/* :root {
+    --porcent_html: 80%;
+    --porcent_css: 30%;
+    --porcent_js: 10%;
+} */
+
+.skills_contenedor {
+    position: relative;
+    display: block;
+    background-color: #777;
+    margin: 2px 15px;
+    border-radius: 10px;
+}
+
+.hard, .soft {
+    display: inline-block;
+    background-color: #333;
+    margin: 15px 1%;
+    width: 48%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.soft {
+    float: right;
+   /*  background-color: #777;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center; */
+}
+
+.hard h3, .soft h3 {
+    width: 8em;
+    margin: auto; 
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #08f;
+}
+
+div h4 {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 5px;
+
+}
+
+.barra_container {
+    width: 80%;
+    height: 12px;
+    background-color: #111;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 3px #333;
+}
+
+.progreso_html {
+    background-color: #08f;
+    width: 80%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.progreso_css {
+    background-color: #08f;
+    width: 30%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.progreso_js {
+    background-color: #08f;
+    width: 12%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.progreso_java {
+    background-color: #08f;
+    width: 60%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+button {
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 100%;
+   /*  border: none; */
+    background-color: #08f;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px #fff;
+    transition: all .1s;
+}
+
+button:active {
+    transform: scale(.9);
+}

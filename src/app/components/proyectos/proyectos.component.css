@@ -1,0 +1,22 @@
+.container {
+    background-color: #777;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 2px 15px;
+}
+
+
+
+h1 {
+    margin: 10px auto;
+    box-shadow: 0 0 10px 5px #08f;
+    width: 8em;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.descripcion h4, p {
+    margin: 5px 0;
+}

@@ -1,0 +1,74 @@
+.informacion {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.nom_titulo h2 {
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.nom_titulo {
+    display: inline-block;
+    text-align: center;
+}
+
+.sobre_mi {
+    text-align: justify;
+    display: inline;
+    float: right;
+    width: 60%;
+    box-shadow: 0 0 10px 3px #08f;
+    border-radius: 10px;
+    background-color: #111;
+    margin-right: 5%;
+    padding: 10px;
+    color: #05b;
+}
+
+.sobre_mi h1 {
+    display: block;
+    width: 5em;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 0 auto;
+}
+
+.sobre_mi p {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 752px)  {
+    .sobre_mi {
+        font-size: 14px;
+        width: 80%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+
+    .informacion {
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .sobre_mi{
+       width: 90%;
+       font-size: 12px;
+       padding: 3px;
+    }
+
+    .nom_titulo h2 {
+        text-align: center;
+        top: -100px
+    }
+}
+
