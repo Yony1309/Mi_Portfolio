@@ -1,6 +1,6 @@
 .exp_lab {
     background-color: #777;
-    margin: 2px 15px;
+    margin: 3px 15px;
     padding: 15px;
     border-radius: 5px;
 }
@@ -10,6 +10,12 @@ h5 {
     max-width: 80%;
     margin: 15px 0;
     font-size: 14px;
+}
+
+@media screen and (max-width: 420px){
+    h1 {
+        font-size: 16px;
+    }
 }
 
 h1 {

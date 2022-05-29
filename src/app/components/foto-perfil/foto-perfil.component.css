@@ -4,10 +4,22 @@ span {
 
 .foto {
     position: absolute;
-    box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 3px #fff;
     top: -80px;
     left: 50px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 625px){
+    .foto {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 366px){
+    .foto {
+        top: 0;
+    }
 }

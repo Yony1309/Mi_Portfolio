@@ -1,0 +1,12 @@
+div {    
+    height: 100px;
+    margin: 3px 15px;
+    background-color: #777;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #333;
+    margin: auto;
+}

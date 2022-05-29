@@ -1,6 +1,10 @@
 .instagram {  
-    width: 50px;
+    display: block;
+    float: right;
+    width: 40px;
+    margin-top: 45px;
     padding: 0;
+    margin-right: 5px;
 }
 
 span {
@@ -14,4 +18,18 @@ span {
 
 .instagram:active {
     transform: scale(0.9);
+}
+
+@media screen and (max-width: 421px){
+    .instagram {
+        display: block;
+    }
+
+}    
+
+@media screen and (max-width: 357px) {
+    .instagram {
+        width: 30px;
+        margin-top: 17px;
+    }
 }

@@ -2,7 +2,6 @@
     display: inline-block;
     font-size: 14px;
     margin-top: 70px;
-    margin-left: 20px;
     color: #fff;
 }
 
@@ -10,11 +9,14 @@
     width: 200px;
     margin: 10px;
     margin-bottom: 20px;
+
+
 }
 
 .nom_titulo {
     display: inline-block;
     text-align: center;
+    margin-left: 20px;
 }
 
 .sobre_mi {
@@ -27,7 +29,8 @@
     background-color: #111;
     margin-right: 5%;
     padding: 10px;
-    color: #05b;
+    color: #fff;
+    line-height: 20px;
 }
 
 .sobre_mi h1 {
@@ -43,7 +46,7 @@
     padding: 0 15px;
 }
 
-@media screen and (max-width: 752px)  {
+@media screen and (max-width: 788px)  {
     .sobre_mi {
         font-size: 14px;
         width: 80%;
@@ -59,7 +62,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 625px) {
     .sobre_mi{
        width: 90%;
        font-size: 12px;

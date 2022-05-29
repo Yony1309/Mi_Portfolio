@@ -1,14 +1,9 @@
-/* :root {
-    --porcent_html: 80%;
-    --porcent_css: 30%;
-    --porcent_js: 10%;
-} */
 
 .skills_contenedor {
     position: relative;
     display: block;
     background-color: #777;
-    margin: 2px 15px;
+    margin: 3px 15px;
     border-radius: 10px;
 }
 
@@ -23,10 +18,13 @@
 
 .soft {
     float: right;
-   /*  background-color: #777;
-    border-radius: 5px;
-    width: 50%;
-    text-align: center; */
+}
+
+@media screen and (max-width: 355px) {
+    h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
 }
 
 .hard h3, .soft h3 {
@@ -86,7 +84,7 @@ button {
     margin: 10px;
     font-size: 30px;
     border-radius: 100%;
-   /*  border: none; */
+    border: none;
     background-color: #08f;
     color: #fff;
 }

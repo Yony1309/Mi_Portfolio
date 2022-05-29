@@ -3,3 +3,11 @@
     height: 375px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 366px) {
+    .banner {
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+}
